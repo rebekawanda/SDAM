@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    padding: 10px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+h2 {
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.tarsila {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(16, 112, 181);
+}
+.sala {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(86, 151, 86);
+}
+
+.flex-image {
+    margin-right: 30px; /* Espaço entre a imagem e o texto */
+    width: 300px; /* Define a largura da imagem */
+}
+
+.flex-text {
+    flex: 1; /* Faz o texto ocupar o espaço restante */
+    color: #fff;
+}
+h2 {
+   text-align: center;
+}
+.inicio {
+    background-color: rgb(255, 240, 240);
+}
+.img {
+    text-align: center;
+}
+.sobre {
+    background-color: rgb(255, 240, 240);
+}
+h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.mario {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: black;
+}
+.anita {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: black;
+}
+.heitor {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: black;
+}
+.oswald {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: black;
+}
+.link-button {
+    background-color: rgb(131, 32, 32); /* Cor de fundo */
+    border: none; /* Sem borda */
+    color: white; /* Cor do texto */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 15px 32px; /* Espaçamento interno */
+    text-align: center; /* Alinhamento do texto */
+    text-decoration: none; /* Sem sublinhado */
+    display: inline-block; /* Exibição em linha */
+    font-size: 16px; /* Tamanho da fonte */
+    margin: 4px 2px; /* Margem */
+    cursor: pointer; /* Cursor de ponteiro */
+    border-radius: 12px; /* Bordas arredondadas */
+}
+
+.link-button:hover {
+    background-color: #a04545; /* Cor de fundo ao passar o mouse */
+}
+.botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.palco {
+    text-align: center;
+}
+.stylish-link {
+    display: inline-block;
+    background-color: rgb(131, 32, 32); ; /* Cor de fundo do link */
+    color: white; /* Cor do texto */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 15px 25px; /* Espaçamento interno */
+    text-align: center; /* Alinhamento do texto */
+    text-decoration: none; /* Sem sublinhado */
+    font-size: 18px; /* Tamanho da fonte */
+    border-radius: 12px; /* Bordas arredondadas */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Transição suave */
+}
+
+.stylish-link:hover {
+    background-color: #a04545; /* Cor de fundo ao passar o mouse */
+    transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
+}
+
+.stylish-link:active {
+    background-color: #a04545; /* Cor de fundo ao clicar */
+    transform: scale(0.95); /* Efeito de clique */
+}
+.obras {
+    background-color: rgb(213, 244, 247);
+}
+.teatro {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: black;
+}
